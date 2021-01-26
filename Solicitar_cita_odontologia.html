@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author"         content="">
+        <meta name="description"    content="">
+        <title></title>
+    </head>
+    <body>
+        <header>
+            <h1>HOSPITAL MARIO GAITAN YANGUAS</h1>
+            <H1>Sede Granada</H1>
+            <nav>
+                <ul>
+                    <li><a href="./Pagina principal.html"><span>Incio</span></a></li>
+                    <li><a href="./Medicina general.html"><span>Medicina general</span></a></li>
+                    <li><a href="./Odontología.html"><span>Odontología</span></a></li>
+                    <li><a href="./Hipertensos.html"><span>Hipertensos</span></a></li>
+                    <li><a href="./Horarios.html"><span>Horarios</span></a></li>
+                    <li><a href="./Contacto.html"><span>Contacto</span></a></li>
+                    <li><a href="./Admin.html"><span>Ingreso admin</span></a></li>
+                </ul>
+            </nav>
+            <a href="./Pagina principal.html"><input type="button" value="Volver" ></a>
+        </header>
+        <hr>
+        <main>
+            <section>
+                <h2>Citas Odontología</h2>
+                <h3>Tabla de citas disponibles para Odontología</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Hora</th>
+                            <th scope="col">Lunes</th>
+                            <th scope="col">Martes</th>
+                            <th scope="col">Miercoles</th>
+                            <th scope="col">Jueves</th>
+                            <th scope="col">Viernes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">7 a.m</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th scope="row">8 a.m</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th scope="row">9 a.m</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th scope="row">10 a.m</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th scope="row">11 a.m</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th colspan="6">12 p.m Fuera de horario</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">1 p.m</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th scope="row">2 p.m</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th scope="row">3 p.m</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th scope="row">4 p.m</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>                        
+                    </tbody> 
+                    <tfoot>
+                        <tr>
+                            <th colspan="6">5 p.m - Cierre de citas</th>
+                        </tr>
+                    </tfoot>               
+                </table>
+            </section>
+
+            <section>
+                <H1>Seleccione fecha y hora para su cita</H1>
+                <form action="" method="POST">
+                    <section class="">
+                        <label for="name">Seleccione el día</label>
+                        <select name="name" id="name">
+                            <option value="lunes">Lunes</option>
+                            <option value="martes">Martes</option>
+                            <option value="miercoles">Miercoles</option>
+                            <option value="jueves">Jueves</option>
+                            <option value="viernes">Viernes</option>
+                        </select>
+                    </section>
+                    <br>
+                    <section class="">
+                        <label for="hora">Seleccione la hora</label>
+                        <input list="horarios" name="hora" id="hora" required>
+                        <datalist id="horarios">
+                            <option value="7 a.m"></option>
+                            <option value="8 a.m"></option>
+                            <option value="9 a.m"></option>
+                            <option value="10 a.m"></option>                            
+                            <option value="11 a.m"></option>
+                            <option value="1 p.m"></option>
+                            <option value="2 p.m"></option>
+                            <option value="3 p.m"></option>
+                            <option value="4 p.m"></option>
+                        </select>
+                    </section>
+                    <br>
+                    <section class="">
+                        <label for="name"></label>
+                        <textarea name="name" id="name" cols="50" rows="10">¿Inquietudes y solicitudes adicionales?</textarea>
+                    </section>
+                    <br>
+                    <section class="">
+                        <label for="name"></label>
+                        <input type="submit" value="Enviar solicitud">
+                    </section>
+
+                </form>                
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <h3>Hospital Mario Gaitan Yanguas - Sede Granada (Cundinamarca)<h3>
+        </footer>
+    </body>
+</html>
