@@ -33,7 +33,7 @@ li a{
 
 li a:hover{
     color: hsl(50, 80%, 50%);
-    background-color: hsla(147, 75%, 16%, 0.3);
+    background-color: hsla(147, 75%, 16%, 0.5);
 }
 
 main{
