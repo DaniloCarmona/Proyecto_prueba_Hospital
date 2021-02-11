@@ -1,0 +1,93 @@
+body{
+    background-color: hsl(130, 20%, 87%);
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    margin:5px auto;
+    z-index: 100;
+    width: 100%;
+}
+
+header nav{
+    background-color: hsl(133, 87%, 21%);
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+li a{
+    padding: 5px;
+    color: hsl(153, 20%, 89%);
+}
+
+li a:hover{
+    color: hsl(50, 80%, 50%);
+    background-color: hsla(147, 75%, 16%, 0.3);
+}
+
+main{
+    position: relative;
+    top: 250px;
+    height: 500px;
+}
+
+h1{
+    color: hsl(140, 89%, 15%);
+    text-align: center;
+}
+
+h2{
+    color: hsl(0, 98%, 24%);
+    position: relative;
+    margin: 5px auto;
+    top: 20px;
+    text-align: center;
+}  
+
+#item{
+    top: 10px;
+}
+
+p{
+    margin: 5px auto;
+    position: relative;
+    top: 30px;
+}
+
+.seleccionCitas{
+    top: 450px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.textoIndicativo h2{
+    text-align: left;
+}
+
+#superior{
+    position: relative;
+
+    display: inline;
+}
+
+#inferior{
+    position: relative;
+ 
+    display: inline-block;
+}
+  
+footer{
+    position: fixed;
+    bottom: 10px;
+}
